@@ -1,0 +1,66 @@
+MIT License
+
+Copyright (c) 2026 Naveen Madhavan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DISCLAIMER
+
+This software is provided for legitimate email infrastructure warm-up purposes
+only. By using this software, you agree to the following:
+
+1. AUTHORIZED USE ONLY
+   You may only use this software with email domains and accounts that you own
+   or have explicit authorization to manage. Unauthorized use of third-party
+   email accounts or domains is prohibited.
+
+2. COMPLIANCE WITH EMAIL REGULATIONS
+   You are solely responsible for ensuring your use of this software complies
+   with all applicable laws and regulations, including but not limited to:
+   - CAN-SPAM Act (United States)
+   - GDPR (European Union)
+   - CASL (Canada)
+   - Any other email or anti-spam laws applicable in your jurisdiction.
+
+3. SMTP PROVIDER TERMS OF SERVICE
+   You are responsible for complying with the terms of service of any SMTP
+   relay provider used with this software (e.g. Brevo, SendGrid, AWS SES).
+   The author accepts no liability for account suspension or termination
+   resulting from misuse.
+
+4. NO SPAM OR MALICIOUS USE
+   This software must not be used to send unsolicited bulk email (spam),
+   phishing messages, malware, or any content that is illegal, deceptive,
+   or harmful. It is designed exclusively for warming up owned domains to
+   improve legitimate email deliverability.
+
+5. NO WARRANTY
+   The author makes no guarantees regarding email deliverability outcomes,
+   inbox placement rates, or domain reputation improvements. Results depend
+   on many factors outside the control of this software.
+
+6. LIMITATION OF LIABILITY
+   In no event shall the author be liable for any damages, losses, or legal
+   consequences arising from the use or misuse of this software, including
+   but not limited to email account suspension, domain blacklisting, or
+   regulatory penalties.
+
+Use responsibly.

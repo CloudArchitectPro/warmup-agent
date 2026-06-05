@@ -1,0 +1,46 @@
+{
+  "timezone": "America/New_York",
+  "sendWindow": {
+    "startHour": 6,
+    "endHour": 8
+  },
+  "weekdaysOnly": true,
+  "minDelayMinutes": 25,
+  "maxDelayMinutes": 75,
+  "betweenSendPauseSeconds": { "min": 3, "max": 8 },
+  "rampSchedule": [
+    { "dayFrom": 1,  "dayTo": 7,  "emailsPerDay": 2 },
+    { "dayFrom": 8,  "dayTo": 14, "emailsPerDay": 4 },
+    { "dayFrom": 15, "dayTo": 21, "emailsPerDay": 10 },
+    { "dayFrom": 22, "dayTo": 30, "emailsPerDay": 20 },
+    { "dayFrom": 31, "dayTo": 60, "emailsPerDay": 40 },
+    { "dayFrom": 61, "dayTo": 99999, "emailsPerDay": 8 }
+  ],
+  "domainRing": [
+    {
+      "domain": "yourdomain1.com",
+      "niche": "cloud services and infrastructure solutions",
+      "senders": ["admin@yourdomain1.com", "support@yourdomain1.com", "info@yourdomain1.com"]
+    },
+    {
+      "domain": "yourdomain2.com",
+      "niche": "technology products and hardware innovation",
+      "senders": ["admin@yourdomain2.com", "support@yourdomain2.com"]
+    },
+    {
+      "domain": "yourdomain3.com",
+      "niche": "professional services consulting",
+      "senders": ["info@yourdomain3.com", "hello@yourdomain3.com"]
+    },
+    {
+      "domain": "yourdomain4.com",
+      "niche": "cloud infrastructure and DevOps consulting",
+      "senders": ["cloud@yourdomain4.com", "mail@yourdomain4.com"]
+    },
+    {
+      "domain": "yourdomain5.com",
+      "niche": "SaaS platform and subscription tools",
+      "senders": ["hello@yourdomain5.com"]
+    }
+  ]
+}

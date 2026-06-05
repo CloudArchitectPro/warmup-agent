@@ -1,0 +1,24 @@
+{
+  "name": "warmup-agent",
+  "version": "1.0.0",
+  "description": "Production email warm-up agent for Raspberry Pi — circular ring, AI-generated content, IMAP auto-delete",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5",
+    "imapflow": "^1.0.162",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.1"
+  }
+}
