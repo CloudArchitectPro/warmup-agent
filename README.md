@@ -1,4 +1,4 @@
-# Warmup Agent
+# NuWarm
 
 A production-ready Node.js email warm-up agent that runs 24/7 on a Raspberry Pi. Sends AI-generated, human-like emails between your domains in a circular ring pattern, with automatic IMAP cleanup and crash-safe SQLite state.
 
