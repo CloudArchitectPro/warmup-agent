@@ -1,0 +1,147 @@
+{
+  "timezone": "Asia/Kolkata",
+  "sendWindow": {
+    "startHour": 19,
+    "endHour": 7,
+    "startJitterMinutes": 25,
+    "endJitterMinutes": 30
+  },
+  "weekdaysOnly": false,
+  "weekendMultiplier": {
+    "saturday": { "min": 0.3, "max": 0.6 },
+    "sunday": { "min": 0.1, "max": 0.35 }
+  },
+  "minDelayMinutes": 45,
+  "maxDelayMinutes": 180,
+  "betweenSendPauseSeconds": {
+    "min": 120,
+    "max": 600
+  },
+  "burstMode": {
+    "enabled": true,
+    "chance": 0.15,
+    "burstCount": { "min": 2, "max": 4 },
+    "burstPauseSeconds": { "min": 20, "max": 90 }
+  },
+  "coffeeBreak": {
+    "enabled": true,
+    "chancePerHour": 0.12,
+    "durationMinutes": { "min": 15, "max": 60 }
+  },
+  "timeVolumeCurve": {
+    "enabled": true,
+    "1900-2100": 1.0,
+    "2100-2300": 0.8,
+    "2300-0100": 0.5,
+    "0100-0300": 0.3,
+    "0300-0500": 0.2,
+    "0500-0700": 0.4
+  },
+  "readDelay": {
+    "minMinutes": 15,
+    "maxMinutes": 240
+  },
+  "replyDelay": {
+    "minHours": 2,
+    "maxHours": 8
+  },
+  "inboxBehavior": {
+    "readRate": 0.85,
+    "skipRate": 0.10,
+    "deleteUnreadRate": 0.05,
+    "readLaterChance": 0.20,
+    "readLaterDelayHours": { "min": 3, "max": 24 }
+  },
+  "subjectStyles": {
+    "question": 0.25,
+    "statement": 0.30,
+    "followUp": 0.20,
+    "casualCheckin": 0.15,
+    "actionRequired": 0.10
+  },
+  "trashAfterReadMinutes": 45,
+  "distractionPauseMinutes": 15,
+  "rampSchedule": [
+    {
+      "dayFrom": 1,
+      "dayTo": 7,
+      "minEmails": 1,
+      "maxEmails": 3
+    },
+    {
+      "dayFrom": 8,
+      "dayTo": 14,
+      "minEmails": 2,
+      "maxEmails": 5
+    },
+    {
+      "dayFrom": 15,
+      "dayTo": 21,
+      "minEmails": 3,
+      "maxEmails": 8
+    },
+    {
+      "dayFrom": 22,
+      "dayTo": 99999,
+      "minEmails": 5,
+      "maxEmails": 11
+    }
+  ],
+  "domainRing": [
+    {
+      "domain": "clouma.com",
+      "niche": "cloud services and infrastructure solutions",
+      "senders": ["admin@clouma.com", "aws@clouma.com", "books@clouma.com", "contracts@clouma.com", "naveen@clouma.com", "support@clouma.com"]
+    },
+    {
+      "domain": "examtraps.com",
+      "niche": "education training and exam preparation resources",
+      "senders": ["admin@examtraps.com", "domain@examtraps.com"]
+    },
+    {
+      "domain": "flippyfly.com",
+      "niche": "travel logistics and booking management",
+      "senders": ["admin@flippyfly.com", "info@flippyfly.com", "support@flippyfly.com"]
+    },
+    {
+      "domain": "indxpro.com",
+      "niche": "professional services and business process consulting",
+      "senders": ["admin@indxpro.com", "hello@indxpro.com", "info@indxpro.com", "naveen@indxpro.com", "support@indxpro.com"]
+    },
+    {
+      "domain": "medicalbrothers.com",
+      "niche": "temporary medical staffing agency specializing in healthcare professional placement — nurses, doctors, and allied health staff for hospitals, clinics, and care facilities",
+      "senders": ["admin@medicalbrothers.com", "ar@medicalbrothers.com", "ceo@medicalbrothers.com", "contracts@medicalbrothers.com", "info@medicalbrothers.com", "naveen@medicalbrothers.com", "support@medicalbrothers.com", "traveljobs@medicalbrothers.com"]
+    },
+    {
+      "domain": "naveen.cloud",
+      "niche": "cloud infrastructure and DevOps consulting",
+      "senders": ["admin@naveen.cloud", "cloud@naveen.cloud", "email@naveen.cloud", "mail@naveen.cloud"]
+    },
+    {
+      "domain": "nimbusnebula.com",
+      "niche": "cloud SaaS platform and subscription tools",
+      "senders": ["admin@nimbusnebula.com", "hello@nimbusnebula.com"]
+    },
+    {
+      "domain": "nuvatron.com",
+      "niche": "technology products and hardware innovation",
+      "senders": ["accounts@nuvatron.com", "admin@nuvatron.com", "naveen@nuvatron.com", "support@nuvatron.com"]
+    },
+    {
+      "domain": "santhigiri.org",
+      "niche": "nonprofit organization focused on community welfare",
+      "senders": ["admin@santhigiri.org", "domain@santhigiri.org"]
+    },
+    {
+      "domain": "tharunmoorthy.com",
+      "niche": "personal brand consulting and digital presence strategy",
+      "senders": ["admin@tharunmoorthy.com", "domain@tharunmoorthy.com"]
+    },
+    {
+      "domain": "xaipex.com",
+      "niche": "domain registration and DNS management services",
+      "senders": ["admin@xaipex.com", "domain@xaipex.com", "fly@xaipex.com"]
+    }
+  ]
+}
